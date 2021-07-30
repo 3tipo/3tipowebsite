@@ -1,0 +1,67 @@
+<!DOCTYPE>
+<html	lang="pt"  xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<title>3TipoQuadrado</title>
+  <link th:href="@{https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css}" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC}" crossorigin="anonymous"/>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-blue bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" >3TIPO QUADRADO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Cursos ao domicílio
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Programação</a></li>
+            <li><a class="dropdown-item" href="#">Informática</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Matemática</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><b>Contacto: 931722803 /990722803</b></a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="pesquisar.." aria-label="Search">
+        <button class="btn btn-outline-primary" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="container py-4 ">
+	<div class="card">
+		<div class="card-header " style="text-align: center;">Nossos Serviços</div>
+		<ul class="list-group">
+			<li class="list-group-item">Criação de logotípos</li>
+			<li class="list-group-item">Criação de banner</li>
+			<li class="list-group-item">Criação de panfletos</li>
+			<li class="list-group-item">Criação de Sites Informativos</li>
+			<li class="list-group-item">Criação de Blogues corporativos</li>
+			<li class="list-group-item">Criação de Softwares de Gestão</li>
+			<li class="list-group-item">Criação de Softwares Comerciais</li>
+			<li class="list-group-item">Criação de Softwares oara gestão de tarefas</li>
+		</ul>
+	<div class="card-footer" style="text-align: center;color: blue;">facebook: 3TipoQuadrado</div>
+	</div>
+</div>
+<footer style="width: 100%; height: 180px; background-color:#1877f2;">
+		<p style="text-align: center;color: white;margin-top: 100px;padding: 70px;">&copy;3TipoQuadrado</p>
+</footer>
+<script th:src="@{https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js}" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script th:src="@{https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js}" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
